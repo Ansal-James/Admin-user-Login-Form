@@ -12,7 +12,7 @@ if(!isset($_SESSION["username"]))
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UserHome Page</title>
 </head>
 <body>
     <H1>This is user Home</H1><?php echo $_SESSION["username"] ?>
